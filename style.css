@@ -25,11 +25,19 @@ img{
     margin: 0;
 }
 
+.form-title{
+    text-align: center;
+    color: #ffbf1f;
+    letter-spacing: 2px;
+}
+
 .form{
     background-color: white;
     width: 400px;
     margin: 0 auto;
     padding: 20px;
+    box-shadow: 0 0 5px black;
+    border: none;
 }
 
 #disclaimer{
@@ -45,6 +53,10 @@ hr{
   width: auto;
   text-align: center;
   margin: 0 auto;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
 }
 
 input{
