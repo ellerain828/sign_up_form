@@ -85,3 +85,8 @@ button{
 input:password:user-invalid{
     border: 2px solid red;
 }
+
+input:focus{
+    border: 2px solid blue;
+    box-shadow: 0 0 5px black;
+}
