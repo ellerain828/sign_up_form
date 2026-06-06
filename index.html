@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./big-yellow-flower.ico" type="image/x-icon">
     <title>Sign Up Form</title>
 </head>
 <body>
+    <div class="logo">
+        <h1>Bunni</h1>
+        <img src="./rabbit-bunny-animal-clipart-xl.png" alt="Logo">
+    </div>
     <fieldset class="form">
         <legend id="signup">Sign Up</legend>
         <p id="disclaimer">
@@ -28,13 +33,15 @@
             </div>
             <div>
                 <legend class="titleforinput">Phone Number:</legend>
-                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" pattern="^\+?[\d\s\-().]{7,15}$" required>
+            </div>
             <div>
                 <legend class="titleforinput">Password:</legend>
                 <input type="password" name="password" id="password" placeholder="Enter your password" required>
                 <legend class="titleforinput">Confirm Password:</legend>
-                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password" required>
-            </div>
+                <input type="password" id="confirm" oninput="this.setCustomValidity
+                (this.value !== document.getElementById('password').value ? 'Passwords do not match' : '')"
+                placeholder="Confirm your password" required></div>
             <div>
                 <button type="submit">Create Account</button>
                 <p class="login">Already have an account? <a href="#">Log in</a></p>

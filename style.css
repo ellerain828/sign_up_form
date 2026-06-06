@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 
 body{
     background: url("./5500260.jpg");
     font-family: "Lexend", sans-serif;
+}
+
+img{
+    width: 3%;
+}
+
+.logo{
+    font-family: "MonteCarlo", cursive;
+    position:absolute;
+    float:left;
+    display:flex;
+    align-items:center;
+    gap: 12px;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.logo h1{
+    margin: 0;
 }
 
 .form{
@@ -60,4 +80,8 @@ button{
 
 .login a:hover{
     color:#ffbf1f;
+}
+
+input:password:user-invalid{
+    border: 2px solid red;
 }
