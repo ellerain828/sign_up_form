@@ -10,6 +10,15 @@ img{
     width: 3%;
 }
 
+.lang-selector{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flag{
+    width: 35px;}
+
 .logo{
     font-family: "MonteCarlo", cursive;
     position:absolute;
