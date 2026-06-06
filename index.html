@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <fieldset class="form">
+        <legend id="signup">Sign Up</legend>
+        <p id="disclaimer">
+            DISCLAIMER
+            <br>
+            This is not a real online service. Your information will not be stored.
+        </p>
+        <hr>
+        <form action="" method="get">
+            <div>
+                <legend class="titleforinput">First Name:</legend>
+                <input type="text" name="firstname" id="first_name" placeholder="Enter your first name" required>
+                <legend class="titleforinput">Last Name:</legend>
+                <input type="text" name="lastname" id="last_name" placeholder="Enter your last name" required>
+            </div>
+            <div>
+                <legend class="titleforinput">Email:</legend>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <legend class="titleforinput">Phone Number:</legend>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <div>
+                <legend class="titleforinput">Password:</legend>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                <legend class="titleforinput">Confirm Password:</legend>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password" required>
+            </div>
+            <div>
+                <button type="submit">Create Account</button>
+                <p class="login">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </form>
+    </fieldset>
+    
+</body>
+</html>

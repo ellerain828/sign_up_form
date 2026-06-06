@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    background: url("./5500260.jpg");
+    font-family: "Lexend", sans-serif;
+}
+
+.form{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#disclaimer{
+    text-align: center;
+    font-weight: 500;
+}
+
+hr{
+    border: lightgrey solid 0.5px;
+}
+
+#signup {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.titleforinput{
+    letter-spacing: 2px;
+    color: #c28b00;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #ffbf1f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.login a{
+    color: #c28b00;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color:#ffbf1f;
+}
